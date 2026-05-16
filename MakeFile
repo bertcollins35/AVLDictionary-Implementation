@@ -1,0 +1,5 @@
+myProgram: main.cpp AVL.cpp AVLNode.cpp AVLDictionary.cpp
+	g++ -std=c++17 main.cpp AVL.cpp AVLNode.cpp AVLDictionary.cpp -o myProgram
+
+clean:
+	rm -f myProgram
